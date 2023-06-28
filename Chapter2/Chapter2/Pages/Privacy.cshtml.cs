@@ -12,6 +12,8 @@ namespace Chapter2.Pages
             _logger = logger;
         }
 
+        // The default page handler is OnGet.
+        // Returning void indicates HTML should be generated.
         public void OnGet()
         {
         }
